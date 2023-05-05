@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:rgb(240, 240, 240);
+}
+nav{
+    font-family:'Yeon Sung', cursive;
+    
+}
+
+nav ul{
+    background-color: rgb(24, 24, 24);
+    color: white;
+    list-style: none;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    padding: 0 12px;
+}
+nav ul img{
+    height: 50px;
+    padding-top: 5px;
+}
+.container{
+    min-height: 70vh;
+    width: 70%;
+    margin: 20px auto;
+    font-family:'Yeon Sung', cursive;
+    text-align: center;
+    color: white;
+    background-image:url(wallpaperbatresize.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.songslist{
+    height: 50px;
+    background-color: white;
+    color: black;
+    width: 60%;
+    margin: 12px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.songslist img{
+    height: 45px;
+    margin: 0px 10px;
+    padding: 0px 2px;
+    border-radius: 50%;
+}
+.playbutton{
+    padding: 0px 10px;
+}
+.bottom{
+    height: 15vh;
+    background-color: rgb(24, 24, 24);
+    color: white;
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.icons{
+    margin: 10px;
+}
+.icons i{
+    width: 60px
+}
+.gif{
+    position: absolute;
+    left: 10vw;
+    margin-top: 30px;
+}
+.gif img{
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+}
+#progressbar{
+    width: 80vw;
+    cursor: pointer;
+}
